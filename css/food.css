@@ -1,0 +1,88 @@
+/* Food Section Styles */
+.food_section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+ }
+ 
+ .food_taital {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: bold;
+ }
+ 
+ .food_section_2 .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ 
+ .box_main {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px;
+ }
+ 
+ .product_name {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+ }
+ 
+ .price_text {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+ }
+ 
+ .price {
+    color: #f26522;
+    font-weight: bold;
+ }
+ 
+ .food_img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+ }
+ 
+ .btn_main {
+    margin-top: 15px;
+ }
+ 
+ .buy_bt, .seemore_bt {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f26522;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+ 
+ .buy_bt:hover, .seemore_bt:hover {
+    background-color: #e1531d;
+ }
+ 
+ /* Carousel Controls */
+ .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #f26522;
+ }
+ 
+ @media (max-width: 767px) {
+    .food_section_2 .row {
+       flex-direction: column;
+       align-items: center;
+    }
+    .box_main {
+       width: 90%;
+    }
+ }
